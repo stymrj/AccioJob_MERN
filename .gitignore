@@ -1,2 +1,5 @@
 HTML/
 JavaScript/
+node_modules/
+.DS_Store
+.env
