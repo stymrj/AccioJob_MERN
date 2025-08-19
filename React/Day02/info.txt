@@ -1,0 +1,2 @@
+to enter node Repl => node + enter
+to kill node => ctrl + D  or Ctrl +C twice
