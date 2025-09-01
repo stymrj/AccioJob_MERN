@@ -236,15 +236,11 @@ function App() {
      <div id="movies" className="p-2 text-center text-4xl bg-amber-200 m-2">
         <h1>Movies</h1>
       </div>
-
-
       <div className="grid grid-cols-3">
         {movies.map((movie)=>{
           return <Movies image={movie.image} title={movie.title} genre={movie.genre} rating={movie.rating} />
         })}
       </div>
-
-
       <div id="events" className="p-2 text-center text-4xl bg-amber-200 m-2">
         <h1>Events</h1>
       </div>
