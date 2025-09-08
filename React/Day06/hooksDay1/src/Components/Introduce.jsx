@@ -11,7 +11,7 @@ export function Introduce() {
 
             {val.length > 0 && <h1 className="text-7xl">Greetings {val}!</h1>}
             {val.length > 0 ? <h1 className="text-7xl">Welcome {val}!</h1> : null}
-
+            
         </div>
     )
 }

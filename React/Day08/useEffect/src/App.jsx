@@ -2,6 +2,8 @@ import { useEffect } from "react"
 import { useState } from "react" // 
 import { A } from "./Components/A"
 import HarryPoter from "./Components/HarryPoter"
+import { Users } from "./Components/Users"
+import { Products } from "./Components/Products"
 
 
 // function App() {
@@ -62,7 +64,9 @@ import HarryPoter from "./Components/HarryPoter"
 function App(){
   return(
     <div>
-      <HarryPoter />
+      {/* <HarryPoter /> */}
+      <Products />
+      <Users />
     </div>
   )
 }
